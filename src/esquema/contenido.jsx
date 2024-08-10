@@ -1,24 +1,38 @@
 const _GeoZonasNombre_ = new GenerarContenidoLibreria({
-    nombre: "Geo-zonas-nombre JS",
-    slogan: "Adapta tu diseño web de forma controlada según el ancho de la ventana",
+    nombre: "GeoZonasNombres JS",
+    slogan: "214 Paises, 1998 estados y 129191 ciudades (2022)",
     img: 'src/img/logo.jpeg',
 
-    github: "https://github.com/Jeff-Aporta/CSScmds",
+    github: "https://github.com/Jeff-Aporta/GeoZonasNombreJS",
 
     resumen: {
         desc: `
-            *CSScmds* implementa un sistema avanzado de manejo y manipulación de estilos CSS dinámicos basado en comandos 
-            personalizados. Está diseñado para modificar estilos en función de condiciones específicas y permite la 
-            definición de reglas CSS que responden a ciertos parámetros, como el tamaño de la pantalla, mediante 
-            comandos de estilo encapsulados.
+            Este proyecto proporciona una base de datos completa de países, estados y ciudades, junto con sus respectivas 
+            banderas en varios formatos. Los datos están organizados por país e incluyen ciudades y estados dentro de cada país.
         `,
         descImg: [
-            "*Interpolación Lineal:* Ajusta suavemente los elementos de la interfaz según el ancho de la ventana.",
-            "*Condiciones Dinámicas:* Define comportamientos específicos para diferentes rangos de ancho.",
-            "*Switches Inteligentes:* Cambia entre diferentes estilos y configuraciones de manera automática.",
-            "*Fácil Integración:* Compatible con cualquier proyecto web y fácil de implementar.",
+            "*Datos Geográficos y Banderas Centralizados:* Repositorio completo de países, estados, ciudades y banderas en formato SVG.",
+            "*Estructura Intuitiva:* Datos organizados de manera que facilita su consulta, desde países hasta ciudades.",
+            "*Banderas en Múltiples Formatos:* Banderas disponibles en *SVG 4×3 y 1×1,* adaptables a diferentes interfaces.",
+            "*Sin Dependencias Externas:* Pesa de 3.7MB pero es fácil de integrar sin necesidad de bibliotecas adicionales.",
         ]
     },
 
-    secciones: []
+    secciones: [
+        {
+            nombre: "Usar con CDN",
+            contenido: (thisObj) => {
+                return (
+                    <FormatoDoc>
+                        Para utilizar este módulo en tu proyecto, simplemente incluye el archivo `index.js`
+                        en tu proyecto o enlázalo en tu documento HTML:
+                        <br />
+                        <Code nocode className="link">
+                            {thisObj.githubPage}/index.js
+                        </Code>
+                    </FormatoDoc>
+                );
+            }
+        },
+    ]
 });
