@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GeoZonasNombres JS</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://jeff-aporta.github.io/portafolio/src/imgs/icon.png"
+    />
+
+    <script src="https://jeff-aporta.github.io/ASCIIMapLoader/index.js"></script>
+    <script src="https://jeff-aporta.github.io/ASCIIMapLoader/src/mapeos-personales.js"></script>
+
+    <meta property="og:site_name" content="GeoZonasNombres JS" />
+    <meta property="og:title" content="GeoZonasNombres JS" />
+    <meta
+      property="og:description"
+      content="27/03/2022, 214 Paises, 1998 estados y 129191 ciudades, gran base de datos, para incorporar en cualquier web."
+    />
+    <meta
+      property="og:image"
+      content="https://jeff-aporta.github.io/GeoZonasNombreJS/src/img/logo.jpeg"
+    />
+
+    <script>
+      Object.values(ASCII_MAPS).forEach((map) => {
+        runASCIIMapLoader_inLine(map);
+      });
+
+      runASCIIMapLoader_inLine(`
+            📄 index.js
+            
+            🤖 REACT (JSX)
+
+            ➤📁 src
+            │
+            ├──📁 esquema
+            ╧   └──📄 contenido
+
+            📄 index
+        `);
+    </script>
+  </head>
+
+  <body></body>
+</html>
