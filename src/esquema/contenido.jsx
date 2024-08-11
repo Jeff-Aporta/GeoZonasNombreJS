@@ -85,6 +85,36 @@ const _GeoZonasNombre_ = new GenerarContenidoLibreria({
             }
         },
         {
+            nombre: "bandera(pais)",
+            nombre_render_as: "CodeInline",
+            contenido: (thisObj) => {
+                return (
+                    <FormatoDoc>
+                        La función bandera(pais) devuelve un objeto con las banderas del país especificado en formato *SVG 4×3 y 1×1.*
+                        <br />
+                        <Code>{`
+                            GeoZonasNombre.bandera("nombre-pais")
+                        `}</Code>
+                    </FormatoDoc>
+                );
+            }
+        },
+        {
+            nombre: "codigo(pais)",
+            nombre_render_as: "CodeInline",
+            contenido: (thisObj) => {
+                return (
+                    <FormatoDoc>
+                        La función codigo(pais) devuelve el código *ISO 3166-1 alfa-2* del país especificado.
+                        <br />
+                        <Code>{`
+                            GeoZonasNombre.codigo("nombre-pais")
+                        `}</Code>
+                    </FormatoDoc>
+                );
+            }
+        },
+        {
             nombre: "estados(pais)",
             nombre_render_as: "CodeInline",
             contenido: (thisObj) => {
@@ -110,36 +140,6 @@ const _GeoZonasNombre_ = new GenerarContenidoLibreria({
                         <br />
                         <Code>{`
                             GeoZonasNombre.ciudades("nombre-pais", "nombre-estado")
-                        `}</Code>
-                    </FormatoDoc>
-                );
-            }
-        },
-        {
-            nombre: "bandera(pais)",
-            nombre_render_as: "CodeInline",
-            contenido: (thisObj) => {
-                return (
-                    <FormatoDoc>
-                        La función bandera(pais) devuelve un objeto con las banderas del país especificado en formato *SVG 4×3 y 1×1.*
-                        <br />
-                        <Code>{`
-                            GeoZonasNombre.bandera("nombre-pais")
-                        `}</Code>
-                    </FormatoDoc>
-                );
-            }
-        },
-        {
-            nombre: "codigo(pais)",
-            nombre_render_as: "CodeInline",
-            contenido: (thisObj) => {
-                return (
-                    <FormatoDoc>
-                        La función codigo(pais) devuelve el código *ISO 3166-1 alfa-2* del país especificado.
-                        <br />
-                        <Code>{`
-                            GeoZonasNombre.codigo("nombre-pais")
                         `}</Code>
                     </FormatoDoc>
                 );
