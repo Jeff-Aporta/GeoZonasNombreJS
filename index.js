@@ -1,9 +1,7 @@
-let BD = (()=>{
+const GeoZonasNombre = (() => {
   const BD = {
     Afganistán: {
       code: "AF",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/af.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/af.svg",
       estados: {
         Afghanistan: {
           ciudades: {
@@ -19,8 +17,6 @@ let BD = (()=>{
     },
     Albania: {
       code: "AL",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/al.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/al.svg",
       estados: {
         Berat: {
           ciudades: {
@@ -1085,8 +1081,6 @@ let BD = (()=>{
     },
     Alemania: {
       code: "DE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/de.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/de.svg",
       estados: {
         Brandenburg: {
           ciudades: {
@@ -5827,8 +5821,6 @@ let BD = (()=>{
     },
     Algeria: {
       code: "DZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/dz.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/dz.svg",
       estados: {
         Algeria: {
           ciudades: {
@@ -5848,8 +5840,6 @@ let BD = (()=>{
     },
     Andorra: {
       code: "AD",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ad.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ad.svg",
       estados: {
         Canillo: { ciudades: { Canillo: {} } },
         Encamp: { ciudades: { Encamp: {} } },
@@ -5886,8 +5876,6 @@ let BD = (()=>{
     },
     Angola: {
       code: "AO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ao.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ao.svg",
       estados: {
         Angola: {
           ciudades: {
@@ -5904,14 +5892,10 @@ let BD = (()=>{
     },
     Anguilla: {
       code: "AI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ai.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ai.svg",
       estados: { Anguilla: { ciudades: { Anguilla: {}, Sombrero: {} } } },
     },
     "Antigua y Barbuda": {
       code: "AG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ag.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ag.svg",
       estados: {
         "Antigua and Barbuda": {
           ciudades: {
@@ -5946,8 +5930,6 @@ let BD = (()=>{
     },
     Argentina: {
       code: "AR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ar.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ar.svg",
       estados: {
         "Buenos Aires": {
           ciudades: {
@@ -10680,8 +10662,6 @@ let BD = (()=>{
     },
     Armenia: {
       code: "AM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/am.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/am.svg",
       estados: {
         Aragatsotn: {
           ciudades: { Abaran: {}, "Abaran Verin": {}, Agdzhakala: {} },
@@ -10775,14 +10755,10 @@ let BD = (()=>{
     },
     Aruba: {
       code: "AW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/aw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/aw.svg",
       estados: { Aruba: { ciudades: { Balaim: {} } } },
     },
     Australia: {
       code: "AU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/au.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/au.svg",
       estados: {
         "Australian Capital Territory": {
           ciudades: {
@@ -12595,8 +12571,6 @@ let BD = (()=>{
     },
     Austria: {
       code: "AT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/at.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/at.svg",
       estados: {
         Burgenland: {
           ciudades: {
@@ -13139,8 +13113,6 @@ let BD = (()=>{
     },
     Azerbaiyán: {
       code: "AZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/az.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/az.svg",
       estados: {
         Azerbaijan: {
           ciudades: {
@@ -13169,27 +13141,19 @@ let BD = (()=>{
     },
     Bahamas: {
       code: "BS",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bs.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bs.svg",
       estados: { Bahamas: { ciudades: { Nassau: {} } } },
     },
     Bahrein: { estados: { Bahrain: { ciudades: { Doha: {}, Mahama: {} } } } },
     Bangladesh: {
       code: "BD",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bd.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bd.svg",
       estados: { Bangladesh: { ciudades: { Dakka: {}, Chittangong: {} } } },
     },
     Barbados: {
       code: "BB",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bb.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bb.svg",
       estados: { Barbados: { ciudades: { Bridgetown: {} } } },
     },
     Bélgica: {
       code: "BE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/be.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/be.svg",
       estados: {
         Bruxelles: { ciudades: { Bruxelles: {} } },
         "West-Vlaanderen": {
@@ -13790,26 +13754,18 @@ let BD = (()=>{
     },
     Belice: {
       code: "BZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bz.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bz.svg",
       estados: { Belize: { ciudades: { "Belize City": {} } } },
     },
     Benín: {
       code: "BJ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bj.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bj.svg",
       estados: { Benin: { ciudades: { "Porto-Novo": {} } } },
     },
     Bermudas: {
       code: "BM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bm.svg",
       estados: { Hamilton: { ciudades: { Hamilton: {} } } },
     },
     Bielorrusia: {
       code: "BY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/by.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/by.svg",
       estados: {
         "Brestskaya obl.": {
           ciudades: {
@@ -13890,8 +13846,6 @@ let BD = (()=>{
     },
     Bolivia: {
       code: "BO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bo.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bo.svg",
       estados: {
         Chuquisaca: {
           ciudades: {
@@ -15303,8 +15257,6 @@ let BD = (()=>{
     },
     "Bosnia y Herzegovina": {
       code: "BA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ba.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ba.svg",
       estados: {
         "Federation of Bosnia and Herzegovina": {
           ciudades: {
@@ -15498,16 +15450,12 @@ let BD = (()=>{
     },
     Botsuana: {
       code: "BW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bw.svg",
       estados: {
         Botswana: { ciudades: { Gaborone: {}, Serove: {}, Shakave: {} } },
       },
     },
     Brasil: {
       code: "BR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/br.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/br.svg",
       estados: {
         Acre: {
           ciudades: {
@@ -20467,14 +20415,10 @@ let BD = (()=>{
     },
     Brunéi: {
       code: "BN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bn.svg",
       estados: { Brunei: { ciudades: { "Bandar-Seri-Begavan": {} } } },
     },
     Bulgaria: {
       code: "BG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bg.svg",
       estados: {
         Mikhaylovgrad: { ciudades: { Zgorigrad: {} } },
         Blagoevgrad: {
@@ -20729,7 +20673,9 @@ let BD = (()=>{
             Zlatarica: {},
           },
         },
-        Vidin: { ciudades: { Adlijo: {}, Akcar: {}, Vidin: {}, Zheglitsa: {} } },
+        Vidin: {
+          ciudades: { Adlijo: {}, Akcar: {}, Vidin: {}, Zheglitsa: {} },
+        },
         Vratsa: { ciudades: { Mezdra: {}, Vraca: {}, Vratsa: {}, Vratza: {} } },
         Yambol: {
           ciudades: {
@@ -20744,40 +20690,28 @@ let BD = (()=>{
     },
     "Burkina Faso": {
       code: "BF",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bf.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bf.svg",
       estados: {
         "Burkina Faso": { ciudades: { "Bobo Liulaso": {}, Uagadugu: {} } },
       },
     },
     Burundi: {
       code: "BI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bi.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bi.svg",
       estados: { Burundi: { ciudades: { Buzhumbura: {} } } },
     },
     Bután: {
       code: "BT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/bt.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/bt.svg",
       estados: { Bhutan: { ciudades: { Thimphu: {} } } },
     },
     "Cabo Verde": {
       code: "CV",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cv.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cv.svg",
       estados: { "Cape Verde": { ciudades: { Praya: {} } } },
     },
     Camboya: {
       code: "KH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/kh.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/kh.svg",
       estados: { Cambodia: { ciudades: { Pnompen: {} } } },
     },
     Camerún: {
       code: "CM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cm.svg",
       estados: {
         Littoral: { ciudades: { Douala: {} } },
         "Southwest Region": { ciudades: { Victoria: {} } },
@@ -20787,8 +20721,6 @@ let BD = (()=>{
     },
     Canadá: {
       code: "CA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ca.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ca.svg",
       estados: {
         Newfoundland: {
           ciudades: {
@@ -23848,14 +23780,12 @@ let BD = (()=>{
     },
     Chad: {
       code: "TD",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/td.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/td.svg",
-      estados: { Chad: { ciudades: { Ndzhamena: {}, Abeshe: {}, Karzho: {} } } },
+      estados: {
+        Chad: { ciudades: { Ndzhamena: {}, Abeshe: {}, Karzho: {} } },
+      },
     },
     Chile: {
       code: "CL",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cl.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cl.svg",
       estados: {
         Valparaíso: {
           ciudades: {
@@ -25995,8 +25925,6 @@ let BD = (()=>{
     },
     China: {
       code: "CN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cn.svg",
       estados: {
         Anhui: {
           ciudades: {
@@ -27183,8 +27111,6 @@ let BD = (()=>{
     },
     Chipre: {
       code: "CY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cy.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cy.svg",
       estados: {
         "Government controlled area": {
           ciudades: { Limassol: {}, Talas: {}, Paphos: {} },
@@ -27196,8 +27122,6 @@ let BD = (()=>{
     },
     Colombia: {
       code: "CO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/co.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/co.svg",
       estados: {
         Amazonas: {
           ciudades: {
@@ -31104,14 +31028,10 @@ let BD = (()=>{
     "Cook, Islas": { estados: { Avarua: { ciudades: { Avarua: {} } } } },
     "Corea del Norte": {
       code: "KP",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/kp.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/kp.svg",
       estados: { Korea: { ciudades: { Dagu: {} } } },
     },
     "Corea del Sur": {
       code: "KR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/kr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/kr.svg",
       estados: {
         Cheju: { ciudades: { Cheju: {} } },
         Chollabuk: { ciudades: { Kunsan: {}, Namwon: {} } },
@@ -31145,12 +31065,12 @@ let BD = (()=>{
       },
     },
     "Costa de Marfil": {
-      estados: { "Cote DIvoire": { ciudades: { Yamusukro: {}, Abidzhan: {} } } },
+      estados: {
+        "Cote DIvoire": { ciudades: { Yamusukro: {}, Abidzhan: {} } },
+      },
     },
     "Costa Rica": {
       code: "CR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cr.svg",
       estados: {
         Alajuela: {
           ciudades: {
@@ -31989,8 +31909,6 @@ let BD = (()=>{
     },
     Croacia: {
       code: "HR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/hr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/hr.svg",
       estados: {
         "Bjelovarsko-Bilogorska": {
           ciudades: {
@@ -32208,8 +32126,6 @@ let BD = (()=>{
     },
     Cuba: {
       code: "CU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/cu.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/cu.svg",
       estados: {
         "Pinar del Rio": {
           ciudades: {
@@ -33061,8 +32977,6 @@ let BD = (()=>{
     },
     Dinamarca: {
       code: "DK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/dk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/dk.svg",
       estados: {
         Arhus: {
           ciudades: {
@@ -33376,11 +33290,11 @@ let BD = (()=>{
         },
       },
     },
-    "Djibouti, Yibuti": { estados: { Djibouti: { ciudades: { Djibouti: {} } } } },
+    "Djibouti, Yibuti": {
+      estados: { Djibouti: { ciudades: { Djibouti: {} } } },
+    },
     Ecuador: {
       code: "EC",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ec.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ec.svg",
       estados: {
         Galápagos: {
           ciudades: {
@@ -34656,8 +34570,6 @@ let BD = (()=>{
     },
     Egipto: {
       code: "EG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/eg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/eg.svg",
       estados: {
         "Al QÃ„Â�hira": { ciudades: { Cairo: {} } },
         Aswan: { ciudades: { Aswan: {} } },
@@ -34671,8 +34583,6 @@ let BD = (()=>{
     },
     "El Salvador": {
       code: "SV",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sv.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sv.svg",
       estados: {
         Ahuachapán: { ciudades: { Ahuachapán: {} } },
         Cuscatlán: { ciudades: { Cojutepeque: {} } },
@@ -34687,8 +34597,6 @@ let BD = (()=>{
     },
     "Emiratos Árabes Unidos": {
       code: "AE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ae.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ae.svg",
       estados: {
         Dubai: { ciudades: { Dubai: {} } },
         Sharjah: { ciudades: { Sharjah: {} } },
@@ -34697,14 +34605,10 @@ let BD = (()=>{
     },
     Eritrea: {
       code: "ER",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/er.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/er.svg",
       estados: { Eritrea: { ciudades: { Asmara: {} } } },
     },
     Eslovaquia: {
       code: "SK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sk.svg",
       estados: {
         "Banska Bystrica": {
           ciudades: { "Banská Bystrica": {}, Beszterczebánya: {} },
@@ -34729,8 +34633,6 @@ let BD = (()=>{
     },
     Eslovenia: {
       code: "SI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/si.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/si.svg",
       estados: {
         Beltinci: { ciudades: { Beltinci: {} } },
         Bohinj: { ciudades: { Duori: {}, Dvori: {}, Valica: {}, Valiza: {} } },
@@ -34818,8 +34720,6 @@ let BD = (()=>{
     },
     España: {
       code: "ES",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/es.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/es.svg",
       estados: {
         "Las Palmas": {
           ciudades: {
@@ -46757,8 +46657,6 @@ let BD = (()=>{
     },
     "Estados Unidos": {
       code: "US",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/us.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/us.svg",
       estados: {
         "Armed Forces Americas": { ciudades: { "Armed Forces Americas": {} } },
         "Armed Forces Europe": { ciudades: { "Armed Forces Europe": {} } },
@@ -57287,8 +57185,6 @@ let BD = (()=>{
     },
     Estonia: {
       code: "EE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ee.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ee.svg",
       estados: {
         Estoniya: {
           ciudades: {
@@ -57327,8 +57223,6 @@ let BD = (()=>{
     },
     Etiopía: {
       code: "ET",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/et.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/et.svg",
       estados: {
         Ethiopia: { ciudades: { "Addis-Abeba": {}, Desse: {}, Gonder: {} } },
       },
@@ -57336,8 +57230,6 @@ let BD = (()=>{
     "Feroe, Islas": { estados: { Torshavn: { ciudades: { Torshavn: {} } } } },
     Filipinas: {
       code: "PH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ph.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ph.svg",
       estados: {
         Philippines: {
           ciudades: {
@@ -57355,8 +57247,6 @@ let BD = (()=>{
     },
     Finlandia: {
       code: "FI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/fi.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/fi.svg",
       estados: {
         "Ð•land": {
           ciudades: {
@@ -57698,14 +57588,10 @@ let BD = (()=>{
     },
     Fiyi: {
       code: "FJ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/fj.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/fj.svg",
       estados: { Fiji: { ciudades: { Suva: {}, Nukualofa: {} } } },
     },
     Francia: {
       code: "FR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/fr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/fr.svg",
       estados: {
         Ain: {
           ciudades: {
@@ -82588,20 +82474,14 @@ let BD = (()=>{
     },
     Gabón: {
       code: "GA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ga.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ga.svg",
       estados: { Gabon: { ciudades: { "Port-Zhantil": {}, Librevil: {} } } },
     },
     Gambia: {
       code: "GM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gm.svg",
       estados: { Gambia: { ciudades: { Banzhul: {} } } },
     },
     Georgia: {
       code: "GE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ge.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ge.svg",
       estados: {
         Abkhazia: {
           ciudades: {
@@ -82655,14 +82535,10 @@ let BD = (()=>{
     },
     Ghana: {
       code: "GH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gh.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gh.svg",
       estados: { Ghana: { ciudades: { Akkra: {} } } },
     },
     Gibraltar: {
       code: "GI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gi.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gi.svg",
       estados: {
         Gibraltar: {
           ciudades: {
@@ -82680,14 +82556,10 @@ let BD = (()=>{
     },
     Granada: {
       code: "GD",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gd.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gd.svg",
       estados: { "St Georges": { ciudades: { "Saint Georges": {} } } },
     },
     Grecia: {
       code: "GR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gr.svg",
       estados: {
         Evros: {
           ciudades: {
@@ -82713,7 +82585,13 @@ let BD = (()=>{
         },
         Xanthi: { ciudades: { Eskije: {}, Xanthe: {}, Xánthi: {} } },
         Drama: {
-          ciudades: { Dhráma: {}, Dráma: {}, Exochí: {}, Exokhí: {}, Vésmi: {} },
+          ciudades: {
+            Dhráma: {},
+            Dráma: {},
+            Exochí: {},
+            Exokhí: {},
+            Vésmi: {},
+          },
         },
         Serrai: {
           ciudades: {
@@ -82852,7 +82730,12 @@ let BD = (()=>{
         },
         Thesprotia: { ciudades: { Igoumenítsa: {} } },
         Preveza: {
-          ciudades: { "Agía Faneroméni": {}, Kastrí: {}, Párga: {}, Préveza: {} },
+          ciudades: {
+            "Agía Faneroméni": {},
+            Kastrí: {},
+            Párga: {},
+            Préveza: {},
+          },
         },
         Arta: {
           ciudades: {
@@ -83278,14 +83161,10 @@ let BD = (()=>{
     },
     Groenlandia: {
       code: "GL",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gl.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gl.svg",
       estados: { Greenland: { ciudades: { Nuuk: {} } } },
     },
     Guadalupe: {
       code: "GP",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gp.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gp.svg",
       estados: {
         "Grande-Terre": { ciudades: { "Pointe-à-Pitre": {} } },
         "Basse-Terre": { ciudades: { "Basse Terre": {} } },
@@ -83293,8 +83172,6 @@ let BD = (()=>{
     },
     Guatemala: {
       code: "GT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gt.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gt.svg",
       estados: {
         "Alta Verapaz": {
           ciudades: {
@@ -84340,38 +84217,26 @@ let BD = (()=>{
     },
     Guernsey: {
       code: "GG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gg.svg",
       estados: { "St Peter Port": { ciudades: { "Saint Peter Port": {} } } },
     },
     Guinea: {
       code: "GN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gn.svg",
       estados: { Guinea: { ciudades: { Konakri: {}, Kankan: {} } } },
     },
     "Guinea Ecuatorial": {
       code: "GQ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gq.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gq.svg",
       estados: { Malabo: { ciudades: { Malabo: {} } } },
     },
     "Guinea-Bissau": {
       code: "GW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gw.svg",
       estados: { Bissau: { ciudades: { Bissau: {} } } },
     },
     Guyana: {
       code: "GY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gy.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gy.svg",
       estados: { Guyana: { ciudades: { Djordjtown: {} } } },
     },
     Haiti: {
       code: "HT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ht.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ht.svg",
       estados: {
         Artibonite: { ciudades: { "Gonaïves (Gonayiv)": {} } },
         GrandAnse: { ciudades: { Jeremi: {} } },
@@ -84383,20 +84248,14 @@ let BD = (()=>{
     },
     Honduras: {
       code: "HN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/hn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/hn.svg",
       estados: { Tegucigalpa: { ciudades: { Tegucigalpa: {} } } },
     },
     "Hong Kong": {
       code: "HK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/hk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/hk.svg",
       estados: { "Hong Kong": { ciudades: { Isphana: {} } } },
     },
     Hungría: {
       code: "HU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/hu.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/hu.svg",
       estados: {
         "Bacs-Kiskun": {
           ciudades: {
@@ -84981,8 +84840,6 @@ let BD = (()=>{
     },
     India: {
       code: "IN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/in.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/in.svg",
       estados: {
         Bangala: {
           ciudades: {
@@ -85207,14 +85064,10 @@ let BD = (()=>{
     },
     Indonesia: {
       code: "ID",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/id.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/id.svg",
       estados: { Indonesia: { ciudades: { "Ak-Tam": {} } } },
     },
     Irak: {
       code: "IQ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/iq.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/iq.svg",
       estados: {
         Baghdad: { ciudades: { Karamyk: {} } },
         Basra: { ciudades: { "Kok-Yangak": {} } },
@@ -85223,8 +85076,6 @@ let BD = (()=>{
     },
     Irán: {
       code: "IR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ir.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ir.svg",
       estados: {
         "Azarbayjan-e Khavari": { ciudades: { Maragheh: {}, Tabriz: {} } },
         Esfahan: { ciudades: { Kashan: {} } },
@@ -85244,8 +85095,6 @@ let BD = (()=>{
     },
     Irlanda: {
       code: "IE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ie.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ie.svg",
       estados: {
         Dublin: {
           ciudades: {
@@ -85326,7 +85175,12 @@ let BD = (()=>{
         },
         Carlow: { ciudades: { Carlow: {}, "Muine Bheag": {}, Tullow: {} } },
         Kilkenny: {
-          ciudades: { Callan: {}, Castlecomer: {}, Kilkenny: {}, Thomastown: {} },
+          ciudades: {
+            Callan: {},
+            Castlecomer: {},
+            Kilkenny: {},
+            Thomastown: {},
+          },
         },
         Laois: {
           ciudades: {
@@ -85474,11 +85328,11 @@ let BD = (()=>{
         },
       },
     },
-    "Isla Pitcairn": { estados: { Adamstown: { ciudades: { Adamstown: {} } } } },
+    "Isla Pitcairn": {
+      estados: { Adamstown: { ciudades: { Adamstown: {} } } },
+    },
     Islandia: {
       code: "IS",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/is.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/is.svg",
       estados: {
         Akureyri: { ciudades: { Akureyri: {} } },
         Arnessysla: {
@@ -85639,14 +85493,10 @@ let BD = (()=>{
     },
     "Islas Salomón": {
       code: "SB",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sb.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sb.svg",
       estados: { "Solomon Islands": { ciudades: { Honiara: {} } } },
     },
     "Islas Turcas y Caicos": {
       code: "TC",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tc.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tc.svg",
       estados: { "Grand Turk": { ciudades: { Kev: {}, "Turk Islands": {} } } },
     },
     "Islas Virgenes Británicas": {
@@ -85654,8 +85504,6 @@ let BD = (()=>{
     },
     Israel: {
       code: "IL",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/il.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/il.svg",
       estados: {
         "Southern District": {
           ciudades: {
@@ -85739,8 +85587,6 @@ let BD = (()=>{
     },
     Italia: {
       code: "IT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/it.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/it.svg",
       estados: {
         "Piemonte - Torino": {
           ciudades: {
@@ -93800,14 +93646,10 @@ let BD = (()=>{
     },
     Jamaica: {
       code: "JM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/jm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/jm.svg",
       estados: { Jamaica: { ciudades: { Kingston: {} } } },
     },
     Japón: {
       code: "JP",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/jp.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/jp.svg",
       estados: {
         Aichi: {
           ciudades: {
@@ -94436,14 +94278,10 @@ let BD = (()=>{
     },
     Jersey: {
       code: "JE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/je.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/je.svg",
       estados: { "Saint Helier": { ciudades: { "Saint Elle": {} } } },
     },
     Jordania: {
       code: "JO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/jo.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/jo.svg",
       estados: { Jordan: { ciudades: { Cholpon: {} } } },
     },
     Kazajstán: {
@@ -94631,8 +94469,6 @@ let BD = (()=>{
     },
     Kenia: {
       code: "KE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ke.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ke.svg",
       estados: {
         Central: {
           ciudades: {
@@ -94819,8 +94655,6 @@ let BD = (()=>{
     },
     Kirguistán: {
       code: "KG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/kg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/kg.svg",
       estados: {
         "Issik Kulskaya Region": {
           ciudades: {
@@ -94900,8 +94734,6 @@ let BD = (()=>{
     },
     Kiribati: {
       code: "KI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ki.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ki.svg",
       estados: {
         "Gilbert Islands": { ciudades: { "Gilbert Islands": {} } },
         "Line Islands": { ciudades: { "Line Islands": {} } },
@@ -94910,8 +94742,6 @@ let BD = (()=>{
     },
     Kuwait: {
       code: "KW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/kw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/kw.svg",
       estados: {
         "al-Jahra": { ciudades: { "Al-Hakra": {} } },
         "al-Kuwait": { ciudades: { "El-Kuwait": {} } },
@@ -94919,20 +94749,14 @@ let BD = (()=>{
     },
     Laos: {
       code: "LA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/la.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/la.svg",
       estados: { Laos: { ciudades: { Ventyan: {} } } },
     },
     Lesotho: {
       code: "LS",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ls.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ls.svg",
       estados: { Lesotho: { ciudades: { Maseru: {} } } },
     },
     Letonia: {
       code: "LV",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lv.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lv.svg",
       estados: {
         Latviya: {
           ciudades: {
@@ -94975,20 +94799,14 @@ let BD = (()=>{
     },
     Líbano: {
       code: "LB",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lb.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lb.svg",
       estados: { Beirut: { ciudades: { Beirut: {} } } },
     },
     Liberia: {
       code: "LR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lr.svg",
       estados: { Liberia: { ciudades: { Monroviya: {} } } },
     },
     Libia: {
       code: "LY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ly.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ly.svg",
       estados: {
         Tarabulus: { ciudades: { Tripoli: {} } },
         Bengasi: { ciudades: { Bengasi: {} } },
@@ -94996,8 +94814,6 @@ let BD = (()=>{
     },
     Liechtenstein: {
       code: "LI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/li.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/li.svg",
       estados: {
         Balzers: { ciudades: { Balzers: {}, Mäls: {} } },
         Eschen: { ciudades: { Eschen: {} } },
@@ -95026,15 +94842,18 @@ let BD = (()=>{
         },
         Triesen: { ciudades: { Triesen: {} } },
         Triesenberg: {
-          ciudades: { Rotaboda: {}, Sücka: {}, Triesenberg: {}, Wangerbärg: {} },
+          ciudades: {
+            Rotaboda: {},
+            Sücka: {},
+            Triesenberg: {},
+            Wangerbärg: {},
+          },
         },
         Vaduz: { ciudades: { Mühleholz: {}, Vaduz: {} } },
       },
     },
     Lituania: {
       code: "LT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lt.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lt.svg",
       estados: {
         Litva: {
           ciudades: {
@@ -95096,8 +94915,6 @@ let BD = (()=>{
     },
     Luxemburgo: {
       code: "LU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lu.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lu.svg",
       estados: {
         Diekirch: {
           ciudades: {
@@ -95427,8 +95244,6 @@ let BD = (()=>{
     },
     Macedonia: {
       code: "MK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mk.svg",
       estados: {
         Aracinovo: { ciudades: { Araçinë: {}, Aracinovo: {} } },
         Bac: { ciudades: { Bac: {} } },
@@ -95514,7 +95329,9 @@ let BD = (()=>{
           },
         },
         Studenicani: { ciudades: { Studenicani: {} } },
-        "Suto Orizari": { ciudades: { "Suto Orizare": {}, "Suto Orizari": {} } },
+        "Suto Orizari": {
+          ciudades: { "Suto Orizare": {}, "Suto Orizari": {} },
+        },
         "Sveti Nikole": { ciudades: { "Sveti Nikole": {} } },
         Tearce: { ciudades: { Tearce: {} } },
         Tetovo: {
@@ -95550,8 +95367,6 @@ let BD = (()=>{
     },
     Madagascar: {
       code: "MG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mg.svg",
       estados: {
         Madagascar: {
           ciudades: {
@@ -95567,27 +95382,21 @@ let BD = (()=>{
     },
     Malasia: {
       code: "MY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/my.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/my.svg",
       estados: { Malaysia: { ciudades: { "Kuala Lumpur": {} } } },
     },
     Malawi: {
       code: "MW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mw.svg",
       estados: { Malawi: { ciudades: { Lilongve: {} } } },
     },
     Maldivas: {
       code: "MV",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mv.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mv.svg",
       estados: { Maldives: { ciudades: { Male: {} } } },
     },
-    Malí: { estados: { Mali: { ciudades: { Gao: {}, Mopti: {}, Bamako: {} } } } },
+    Malí: {
+      estados: { Mali: { ciudades: { Gao: {}, Mopti: {}, Bamako: {} } } },
+    },
     Malta: {
       code: "MT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mt.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mt.svg",
       estados: {
         Malta: {
           ciudades: {
@@ -95807,8 +95616,6 @@ let BD = (()=>{
     },
     Marruecos: {
       code: "MA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ma.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ma.svg",
       estados: {
         Morocco: { ciudades: { Morocco: {} } },
         Tangier: { ciudades: { Tangier: {} } },
@@ -95816,26 +95623,18 @@ let BD = (()=>{
     },
     Martinica: {
       code: "MQ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mq.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mq.svg",
       estados: { "Fort-de-France": { ciudades: { "Fort-de-France": {} } } },
     },
     Mauricio: {
       code: "MU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mu.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mu.svg",
       estados: { Mauritius: { ciudades: { "Port-Lyu": {} } } },
     },
     Mauritania: {
       code: "MR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mr.svg",
       estados: { Mauritania: { ciudades: { Nouakchott: {} } } },
     },
     México: {
       code: "MX",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mx.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mx.svg",
       estados: {
         Aguascalientes: {
           ciudades: {
@@ -108795,8 +108594,6 @@ let BD = (()=>{
     },
     Moldavia: {
       code: "MD",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/md.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/md.svg",
       estados: {
         Moldova: {
           ciudades: {
@@ -108839,8 +108636,6 @@ let BD = (()=>{
     },
     Mónaco: {
       code: "MC",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mc.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mc.svg",
       estados: {
         "La Condamine": { ciudades: { "La Condamine": {} } },
         Monaco: {
@@ -108859,14 +108654,10 @@ let BD = (()=>{
     },
     Mongolia: {
       code: "MN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mn.svg",
       estados: { "Ulan Bator": { ciudades: { "Ulan Bator": {} } } },
     },
     Mozambique: {
       code: "MZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mz.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mz.svg",
       estados: {
         Mozambique: {
           ciudades: { Maputo: {}, Beira: {}, Nampula: {}, Pemba: {} },
@@ -108875,14 +108666,10 @@ let BD = (()=>{
     },
     Myanmar: {
       code: "MM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/mm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/mm.svg",
       estados: { "Myanmar (Burma)": { ciudades: { Yangon: {}, Michina: {} } } },
     },
     Namibia: {
       code: "NA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/na.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/na.svg",
       estados: {
         Namibia: {
           ciudades: { Vinduk: {}, "Yolfish-Bey": {}, Luderizc: {}, Zcumeb: {} },
@@ -108891,20 +108678,16 @@ let BD = (()=>{
     },
     Nauru: {
       code: "NR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/nr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/nr.svg",
-      estados: { Nauru: { ciudades: { Yaren: {}, Bairiki: {}, Madzhuru: {} } } },
+      estados: {
+        Nauru: { ciudades: { Yaren: {}, Bairiki: {}, Madzhuru: {} } },
+      },
     },
     Nepal: {
       code: "NP",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/np.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/np.svg",
       estados: { Nepal: { ciudades: { Katmandu: {} } } },
     },
     Nicaragua: {
       code: "NI",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ni.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ni.svg",
       estados: {
         Boaco: {
           ciudades: {
@@ -109437,30 +109220,28 @@ let BD = (()=>{
     },
     Níger: {
       code: "NE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ne.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ne.svg",
       estados: {
         Niger: {
-          ciudades: { Niamey: {}, Zinder: {}, Agades: {}, Bilma: {}, Dzado: {} },
+          ciudades: {
+            Niamey: {},
+            Zinder: {},
+            Agades: {},
+            Bilma: {},
+            Dzado: {},
+          },
         },
       },
     },
     Nigeria: {
       code: "NG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ng.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ng.svg",
       estados: { Nigeria: { ciudades: { Lagos: {}, Abudja: {} } } },
     },
     "Norfolk Island": {
       code: "NF",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/nf.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/nf.svg",
       estados: { Kingston: { ciudades: { Kingston: {} } } },
     },
     Noruega: {
       code: "NO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/no.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/no.svg",
       estados: {
         Akershus: {
           ciudades: {
@@ -109955,18 +109736,16 @@ let BD = (()=>{
     },
     "Nueva Caledonia": {
       code: "NC",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/nc.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/nc.svg",
       estados: { Noumea: { ciudades: { Noumea: {} } } },
     },
     "Nueva Zelanda": {
       code: "NZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/nz.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/nz.svg",
       estados: {
         Auckland: { ciudades: { Manukau: {}, Auckland: {} } },
         "Bay of Plenty": { ciudades: { Rotorua: {}, Tauranga: {} } },
-        Canterbury: { ciudades: { Ashburton: {}, Timaru: {}, Christchurch: {} } },
+        Canterbury: {
+          ciudades: { Ashburton: {}, Timaru: {}, Christchurch: {} },
+        },
         Gisborne: { ciudades: { Gisborne: {} } },
         "Hawkes Bay": { ciudades: { Napier: {}, Hastings: {} } },
         "Manawatu-Wanganui": {
@@ -109986,8 +109765,6 @@ let BD = (()=>{
     },
     Omán: {
       code: "OM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/om.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/om.svg",
       estados: { Oman: { ciudades: { Salala: {}, Maskat: {}, Sur: {} } } },
     },
     "Países Bajos, Holanda": {
@@ -111012,16 +110789,12 @@ let BD = (()=>{
     },
     Pakistán: {
       code: "PK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pk.svg",
       estados: {
         Pakistan: { ciudades: { Islamabad: {}, Karachi: {}, Lahore: {} } },
       },
     },
     Panamá: {
       code: "PA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pa.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pa.svg",
       estados: {
         "Bocas del Toro": {
           ciudades: {
@@ -111702,8 +111475,6 @@ let BD = (()=>{
     },
     Paraguay: {
       code: "PY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/py.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/py.svg",
       estados: {
         "Alto Paraná": {
           ciudades: {
@@ -112058,8 +111829,6 @@ let BD = (()=>{
     },
     Perú: {
       code: "PE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pe.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pe.svg",
       estados: {
         Amazonas: {
           ciudades: {
@@ -117949,14 +117718,10 @@ let BD = (()=>{
     },
     "Polinesia Francesa": {
       code: "PF",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pf.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pf.svg",
       estados: { Papeete: { ciudades: { Papeete: {} } } },
     },
     Polonia: {
       code: "PL",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pl.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pl.svg",
       estados: {
         "Biala Podlaska": {
           ciudades: {
@@ -118766,8 +118531,6 @@ let BD = (()=>{
     },
     Portugal: {
       code: "PT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pt.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pt.svg",
       estados: {
         Aveiro: {
           ciudades: {
@@ -121663,8 +121426,6 @@ let BD = (()=>{
     },
     "Puerto Rico": {
       code: "PR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pr.svg",
       estados: {
         "Puerto Rico": {
           ciudades: {
@@ -121776,14 +121537,10 @@ let BD = (()=>{
     },
     Qatar: {
       code: "QA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/qa.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/qa.svg",
       estados: { Doha: { ciudades: { Doha: {} } } },
     },
     "Reino Unido": {
       code: "GB",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/gb.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/gb.svg",
       estados: {
         "Scotland North": {
           ciudades: {
@@ -123440,8 +123197,6 @@ let BD = (()=>{
     },
     "República Dominicana": {
       code: "DO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/do.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/do.svg",
       estados: {
         "Santo Domingo": { ciudades: { "Santo Domingo": {} } },
         Duarte: {
@@ -123721,25 +123476,21 @@ let BD = (()=>{
     },
     Reunión: {
       code: "RE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/re.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/re.svg",
       estados: { "Saint-Denis": { ciudades: { "Saint Denis": {} } } },
     },
     Ruanda: {
       code: "RW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/rw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/rw.svg",
       estados: { Rwanda: { ciudades: { Kigali: {} } } },
     },
     Rumanía: {
       code: "RO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ro.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ro.svg",
       estados: {
         Alba: {
           ciudades: { "Alba Iulia": {}, Gyulafehérvár: {}, Karlsburg: {} },
         },
-        Arad: { ciudades: { Altarad: {}, Arad: {}, Micalaca: {}, "O-Arad": {} } },
+        Arad: {
+          ciudades: { Altarad: {}, Arad: {}, Micalaca: {}, "O-Arad": {} },
+        },
         Arges: { ciudades: { Pitescï: {}, Piteshti: {}, Pitesti: {} } },
         Bacau: { ciudades: { Bacau: {}, Bákó: {} } },
         Bihor: {
@@ -123960,8 +123711,6 @@ let BD = (()=>{
     },
     Rusia: {
       code: "RU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ru.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ru.svg",
       estados: {
         "Altaiskii krai": {
           ciudades: {
@@ -124156,7 +123905,9 @@ let BD = (()=>{
             "Sovetskoe (Kabardino-Balkariya)": {},
           },
         },
-        "Kaliningradskaya obl.": { ciudades: { "Kaliningrad (Kenigsberg)": {} } },
+        "Kaliningradskaya obl.": {
+          ciudades: { "Kaliningrad (Kenigsberg)": {} },
+        },
         "Tverskaya obl.": {
           ciudades: {
             "Vyshnii Volochek": {},
@@ -124653,7 +124404,11 @@ let BD = (()=>{
           ciudades: { "Anadyr (Chukotskii AO)": {}, Bilibino: {} },
         },
         "Yamalo-Nenetskii AO": {
-          ciudades: { "Novyi Urengoi": {}, Nadym: {}, "Tarko (Tarko-sale)": {} },
+          ciudades: {
+            "Novyi Urengoi": {},
+            Nadym: {},
+            "Tarko (Tarko-sale)": {},
+          },
         },
         "Karachaeva-Cherkesskaya Respublica": {
           ciudades: { Cherkessk: {}, Karachaevsk: {}, Arkhiz: {} },
@@ -124664,14 +124419,12 @@ let BD = (()=>{
     },
     "Sáhara Occidental": {
       code: "EH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/eh.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/eh.svg",
-      estados: { "Western Sahara": { ciudades: { "El-Auyn": {}, Nuadibu: {} } } },
+      estados: {
+        "Western Sahara": { ciudades: { "El-Auyn": {}, Nuadibu: {} } },
+      },
     },
     Samoa: {
       code: "WS",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ws.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ws.svg",
       estados: { Samoa: { ciudades: { Alia: {}, "Pago-Pago": {} } } },
     },
     "San Cristobal y Nevis": {
@@ -124679,8 +124432,6 @@ let BD = (()=>{
     },
     "San Marino": {
       code: "SM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sm.svg",
       estados: {
         Acquaviva: { ciudades: { Acquaviva: {} } },
         Chiesanuova: {
@@ -124703,8 +124454,6 @@ let BD = (()=>{
     },
     "San Pedro y Miquelón": {
       code: "PM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/pm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/pm.svg",
       estados: { "Saint Pierre": { ciudades: { "Saint Pierre": {} } } },
     },
     "San Tomé y Príncipe": {
@@ -124715,20 +124464,14 @@ let BD = (()=>{
     },
     "Santa Elena": {
       code: "SH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sh.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sh.svg",
       estados: { Jamestown: { ciudades: { Jamestown: {} } } },
     },
     "Santa Lucía": {
       code: "LC",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lc.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lc.svg",
       estados: { Castries: { ciudades: { Castries: {} } } },
     },
     Senegal: {
       code: "SN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sn.svg",
       estados: { Senegal: { ciudades: { Dakar: {} } } },
     },
     "Serbia y Montenegro": {
@@ -124736,50 +124479,34 @@ let BD = (()=>{
     },
     Seychelles: {
       code: "SC",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sc.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sc.svg",
       estados: { Seychelles: { ciudades: { Victoria: {} } } },
     },
     "Sierra Leona": {
       code: "SL",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sl.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sl.svg",
       estados: { Freetown: { ciudades: { Freetown: {} } } },
     },
     Singapur: {
       code: "SG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sg.svg",
       estados: { Singapore: { ciudades: { Singapore: {} } } },
     },
     Siria: {
       code: "SY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sy.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sy.svg",
       estados: { Damascus: { ciudades: { Damascus: {} } } },
     },
     Somalia: {
       code: "SO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/so.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/so.svg",
       estados: { Mogadishu: { ciudades: { Mogadishu: {} } } },
     },
     "Sri Lanka": {
       code: "LK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/lk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/lk.svg",
       estados: { "Sri Lanka": { ciudades: { Kolombo: {} } } },
     },
     Sudáfrica: {
       code: "ZA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/za.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/za.svg",
       estados: { Johannesburg: { ciudades: { Johannesburg: {} } } },
     },
     Sudán: {
       code: "SD",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sd.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sd.svg",
       estados: {
         Sudan: {
           ciudades: {
@@ -124797,8 +124524,6 @@ let BD = (()=>{
     },
     Suecia: {
       code: "SE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/se.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/se.svg",
       estados: {
         "Blekinge Lan": {
           ciudades: {
@@ -125617,8 +125342,6 @@ let BD = (()=>{
     },
     Suiza: {
       code: "CH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ch.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ch.svg",
       estados: {
         Aargau: {
           ciudades: {
@@ -127217,8 +126940,6 @@ let BD = (()=>{
     },
     Surinam: {
       code: "SR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/sr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/sr.svg",
       estados: { Paramaribo: { ciudades: { Paramaribo: {} } } },
     },
     Swazilandia: { estados: { Swaziland: { ciudades: { Mbabane: {} } } } },
@@ -127290,8 +127011,6 @@ let BD = (()=>{
     },
     Tailandia: {
       code: "TH",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/th.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/th.svg",
       estados: {
         Thailand: { ciudades: { Bangcock: {} } },
         "Amnat Charoen": { ciudades: { "Amnat Charoen": {} } },
@@ -127389,7 +127108,11 @@ let BD = (()=>{
         Lampang: { ciudades: { Lampang: {}, "Ko Kha": {}, Ngao: {} } },
         Loei: { ciudades: { "Phu Kra Dung": {} } },
         "Lop Buri": {
-          ciudades: { "Lop Buri": {}, "Phatthana Nikhom": {}, "Lam Sonthi": {} },
+          ciudades: {
+            "Lop Buri": {},
+            "Phatthana Nikhom": {},
+            "Lam Sonthi": {},
+          },
         },
         "Mae Hong Son": { ciudades: { "Mae Hong Son": {} } },
         "Maha Sarakham": {
@@ -127448,7 +127171,11 @@ let BD = (()=>{
         Phuket: { ciudades: { Phuket: {}, Kathu: {}, Thalang: {} } },
         "Prachin Buri": { ciudades: { "Kabin Buri": {} } },
         "Prachuap Khiri Khan": {
-          ciudades: { "Prachuap Khiri Khan": {}, "Pran Buri": {}, "Hua Hin": {} },
+          ciudades: {
+            "Prachuap Khiri Khan": {},
+            "Pran Buri": {},
+            "Hua Hin": {},
+          },
         },
         Ratchaburi: { ciudades: { Ratchaburi: {}, "Ban Kha": {} } },
         Rayong: { ciudades: { Rayong: {}, Klaeng: {} } },
@@ -127507,55 +127234,44 @@ let BD = (()=>{
     },
     Taiwan: {
       code: "TW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tw.svg",
       estados: { Taiwan: { ciudades: { Taipei: {} } } },
     },
     Tanzania: {
       code: "TZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tz.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tz.svg",
       estados: {
         Tanzania: {
-          ciudades: { "Dar-es-Salam": {}, Zanzibar: {}, Dodoma: {}, Mvanza: {} },
+          ciudades: {
+            "Dar-es-Salam": {},
+            Zanzibar: {},
+            Dodoma: {},
+            Mvanza: {},
+          },
         },
       },
     },
     "Timor Oriental": { estados: { "East Timor": { ciudades: { Dili: {} } } } },
     Togo: {
       code: "TG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tg.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tg.svg",
       estados: { Togo: { ciudades: { Lome: {} } } },
     },
     Tokelau: {
       code: "TK",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tk.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tk.svg",
       estados: { Fakaofo: { ciudades: { Fakaofo: {} } } },
     },
     Tonga: {
       code: "TO",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/to.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/to.svg",
       estados: { Tonga: { ciudades: { Nukualofa: {} } } },
     },
     "Trinidad y Tobago": {
       code: "TT",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tt.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tt.svg",
       estados: { "Port of Spain": { ciudades: { "Port of Spain": {} } } },
     },
     Túnez: {
       code: "TN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tn.svg",
       estados: { Tunisia: { ciudades: { Toktogul: {} } } },
     },
     Turkmenistan: {
       code: "TM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tm.svg",
       estados: {
         "Ashgabat Region": { ciudades: { Ashkhabad: {} } },
         "Krasnovodsk Region": {
@@ -127594,8 +127310,6 @@ let BD = (()=>{
     },
     Turquía: {
       code: "TR",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tr.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tr.svg",
       estados: {
         Bartin: { ciudades: { Bartin: {} } },
         Bayburt: { ciudades: { Bayburt: {} } },
@@ -127638,14 +127352,10 @@ let BD = (()=>{
     },
     Tuvalu: {
       code: "TV",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/tv.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/tv.svg",
       estados: { Tuvalu: { ciudades: { Funafuti: {} } } },
     },
     Ucrania: {
       code: "UA",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ua.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ua.svg",
       estados: {
         "Vinnitskaya obl.": {
           ciudades: {
@@ -127732,7 +127442,9 @@ let BD = (()=>{
             Slavutich: {},
           },
         },
-        "Kirovogradskaya obl.": { ciudades: { Kirovograd: {}, Svetlovodsk: {} } },
+        "Kirovogradskaya obl.": {
+          ciudades: { Kirovograd: {}, Svetlovodsk: {} },
+        },
         "Krymskaya obl.": {
           ciudades: {
             Alushta: {},
@@ -127923,8 +127635,6 @@ let BD = (()=>{
     },
     Uganda: {
       code: "UG",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ug.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ug.svg",
       estados: {
         Jinja: { ciudades: { Jinja: {} } },
         Kampala: { ciudades: { Kampala: {} } },
@@ -127932,8 +127642,6 @@ let BD = (()=>{
     },
     Uruguay: {
       code: "UY",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/uy.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/uy.svg",
       estados: {
         Artigas: {
           ciudades: {
@@ -128518,8 +128226,6 @@ let BD = (()=>{
     },
     Uzbekistán: {
       code: "UZ",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/uz.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/uz.svg",
       estados: {
         "Andijon Region": {
           ciudades: {
@@ -128587,7 +128293,9 @@ let BD = (()=>{
             Urgut: {},
           },
         },
-        "Surxondaryo Region": { ciudades: { Denau: {}, Karluk: {}, Termez: {} } },
+        "Surxondaryo Region": {
+          ciudades: { Denau: {}, Karluk: {}, Termez: {} },
+        },
         "Sirdaryo Region": { ciudades: { Syrdarya: {}, Khvast: {} } },
         "Tashkent Region": {
           ciudades: { Buka: {}, Soldatsky: {}, Tashkent: {}, Yangiyul: {} },
@@ -128607,14 +128315,10 @@ let BD = (()=>{
     },
     Vanuatu: {
       code: "VU",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/vu.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/vu.svg",
       estados: { Vanuatu: { ciudades: { "Port-Vila": {}, Numea: {} } } },
     },
     Venezuela: {
       code: "VE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ve.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ve.svg",
       estados: {
         Amazonas: {
           ciudades: {
@@ -134999,7 +134703,11 @@ let BD = (()=>{
           },
         },
         "Dependencias Federales": {
-          ciudades: { "El Roque": {}, "Punta de Garambeo": {}, "Gran Roque": {} },
+          ciudades: {
+            "El Roque": {},
+            "Punta de Garambeo": {},
+            "Gran Roque": {},
+          },
         },
         "Distrito Federal": {
           ciudades: {
@@ -135166,8 +134874,6 @@ let BD = (()=>{
     },
     Vietnam: {
       code: "VN",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/vn.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/vn.svg",
       estados: {
         "Dong Bang Song Cuu Long": {
           ciudades: { "Can Tho": {}, "Rach Gia": {} },
@@ -135191,124 +134897,40 @@ let BD = (()=>{
     },
     "Wallis y Futuna": {
       code: "WF",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/wf.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/wf.svg",
       estados: { "Mata-Utu": { ciudades: { "Mata-Utu": {} } } },
     },
     Yemen: {
       code: "YE",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/ye.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/ye.svg",
       estados: { Yemen: { ciudades: { Sana: {}, Aden: {} } } },
     },
     Zambia: {
       code: "ZM",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/zm.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/zm.svg",
       estados: {
         Zambia: { ciudades: { Pusaka: {}, Ndola: {}, "Kitve-Nkana": {} } },
       },
     },
     Zimbabwe: {
       code: "ZW",
-      flagSVG_4x3: "https://flagicons.lipis.dev/flags/4x3/zw.svg",
-      flagSVG_1x1: "https://flagicons.lipis.dev/flags/1x1/zw.svg",
       estados: { Zimbabwe: { ciudades: { Harare: {}, Bulavayio: {} } } },
     },
   };
-  
-  function paises() {
-    let paises = [];
-    for (const pais in BD){
-      paises.push({
-        pais,
-        bandera: BD[pais].flagSVG_4x3,
-      });
-    }
-    paises.sort();
-    return paises;
-  }
-  
-  function optionPaisesHTMLString() {
-    let html = "";
-    let paises = [];
-    for (const pais in BD) {
-      paises.push({
-        pais,
-        bandera: BD[pais].flagSVG_4x3,
-      });
-    }
-    paises.sort();
-    let first = true;
-    for (const pais of paises) {
-      html += `
-      <option value="${pais.pais}" ${first ? "selected='selected'" : ""}>
-        ${pais.pais}
-      </option>
-      `;
-      first = false;
-    }
-    return html;
-  }
-  
-  function estados(pais) {
-    let estados = [];
-    for (const estado in BD[pais].estados) {
-      estados.push(estado);
-    }
-    estados.sort();
-    return estados;
-  }
-  
-  function optionEstadosHTMLString(pais) {
-    let estados = [];
-    for (const estado in BD[pais].estados) {
-      estados.push(estado);
-    }
-    estados.sort();
-    let first = true;
-    let html = "";
-    for (const estado of estados) {
-      html += `<option value="${estado}" ${
-        first ? "selected='selected'" : ""
-      }>${estado}</option>`;
-      first = false;
-    }
-    return html;
-  }
-  
-  function ciudades(pais, estado) {
-    let ciudades = []
-    for (const e in BD[pais]?.estados[estado]?.ciudades) {
-      ciudades.push(e)
-    }
-    ciudades.sort()
-    return ciudades
-  }
-  
-  function optionCiudadesHTMLString(pais, estado) {
-    let ciudades = []
-    for (const e in BD[pais]?.estados[estado]?.ciudades) {
-      ciudades.push(e)
-    }
-    ciudades.sort()
-    let first = true
-    let html = ""
-    for (const ciudad of ciudades) {
-      html += `<option value="${ciudad}" ${first ? "selected='selected'" : ""}>${ciudad}</option>`
-      first = false
-    }
-    return html
-  }
 
   return {
-    paises,
-    ciudades,
-    estados,
-    Option_HTMLString: {
-      paises: optionPaisesHTMLString,
-      estados: optionEstadosHTMLString,
-      coidades: optionCiudadesHTMLString,
+    BD,
+    paises: function() {
+      return Object.keys(BD).sort();
+    },
+    codigo: function(pais) {
+      return BD[pais].code;
+    },
+    bandera: function(pais) {
+      return `https://flagicons.lipis.dev/flags/4x3/${BD[pais].code.toLowerCase()}.svg`;
+    },
+    estados: function(pais) {
+      return Object.keys(BD[pais].estados).sort();
+    },
+    ciudades: function(pais, estado) {
+      return Object.keys(BD[pais]?.estados[estado]?.ciudades).sort();
     }
-  }
+  };
 })();
